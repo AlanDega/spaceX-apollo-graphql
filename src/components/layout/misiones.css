@@ -1,0 +1,9 @@
+body	{
+     background:url('https://res.cloudinary.com/dalnnaod7/image/upload/v1578789606/spacex_ezzzhy.jpg')
+      top right no-repeat;
+       background-attachment:fixed;
+       position: relative;
+  text-align: center;
+    background-size: cover;
+  
+     }
