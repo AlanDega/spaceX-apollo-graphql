@@ -4,6 +4,8 @@ import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Lanzamientos from './components/Lanzamientos';
+import Missions from './components/Missions';
+import Rockets from './components/Rockets';
 import Home  from './components/Home';
 
 
@@ -21,6 +23,8 @@ function App() {
         <Switch>
           <Route exact path ="/" component={Home} />
           <Route exact path="/lanzamientos" component={Lanzamientos} />
+          <Route exact path="/misiones" component={Missions} />
+          <Route exact path="/cohetes" component={Rockets} />
         </Switch>
       </BrowserRouter>
     </ApolloProvider>

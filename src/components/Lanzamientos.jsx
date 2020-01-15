@@ -17,11 +17,7 @@ query LaunchesQuery {
 }
 `;
 
-const 
-const LAUNCH_QUERY = gql`
-query LaunchQuery {
-    launch(id:)
-}`
+
 
 export default class Lanzamientos extends Component {
     render(){
